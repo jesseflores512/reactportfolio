@@ -1,28 +1,30 @@
-.App {
+.navLinks {
+  display: flex;
+  list-style: none;
+  padding: 30px;
+  background-color: grey;
+  margin-top: auto;
+  margin-bottom: 0px;
+}
+
+li {
+  padding-left: 40px;
+}
+.name {
+  margin-right: auto;
+}
+
+.greeting {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
+  font-size: 40px;
   padding: 20px;
-  color: white;
+  margin: 60px;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
+.content {
+  height: 500px;
+  display: flex;
+  background-image: url('./images/nightsky.jpg');
+  background-size: cover;
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
