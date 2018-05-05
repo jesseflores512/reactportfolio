@@ -1,11 +1,14 @@
 .navLinks {
   display: flex;
   list-style: none;
-  padding: 30px;
+  padding: 25px;
+  padding-right: 40px;
   background-color: #311da3;
   margin-top: auto;
   margin-bottom: 0px;
   color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 li {
@@ -17,12 +20,13 @@ li {
 
 .greeting {
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   padding: 20px;
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .content {
