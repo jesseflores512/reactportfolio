@@ -1,7 +1,7 @@
 .navLinks {
   display: flex;
   list-style: none;
-  padding: 25px;
+  padding: 20px;
   padding-right: 40px;
   background: linear-gradient(90deg, rgba(46,9,121,1) 30%, rgba(145,0,255,1) 100%);
   margin-top: auto;
@@ -11,6 +11,7 @@
   font-family: 'Nunito', sans-serif;
   border-bottom-style: solid;
   border-bottom-width: thin;
+  align-items: center;
 }
 
 li {
@@ -18,7 +19,7 @@ li {
 }
 .name {
   margin-right: auto;
-  font-size: 23px;
+  font-size: 25px;
 }
 
 .greeting {
@@ -39,4 +40,11 @@ li {
   background-image: url('./images/nightsky.jpg');
   background-size: cover;
 
+}
+
+a {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }

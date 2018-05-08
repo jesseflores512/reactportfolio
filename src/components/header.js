@@ -4,11 +4,11 @@ export default class Navbar extends React.Component {
   render(){
     return(
         <nav>
-          <ul className ='navLinks'>
-            <li className ='name'>Jesse Flores</li>
-            <li>Portfolio</li>
-            <li>About Me</li>
-            <li>Contact</li>
+          <ul className ='navLinks' role="navigation">
+            <li className ='name'><a href='/'>Jesse Flores</a></li>
+            <li><a href='/'>Portfolio</a></li>
+            <li><a href='/'>About Me</a></li>
+            <li><a href='/'>Contact</a></li>
           </ul>
         </nav>
     )
