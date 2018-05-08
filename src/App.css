@@ -34,7 +34,7 @@ li {
   width: 75%;
 }
 
-.content {
+.home {
   height: 700px;
   display: flex;
   background-image: url('./images/nightsky.jpg');
