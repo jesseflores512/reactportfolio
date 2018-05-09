@@ -4,7 +4,11 @@ export default class Portfolio extends React.Component {
   render(){
     return(
         <div>
-          <h1>Portfolio</h1>
+          <div className='portfolio'>
+            <div className='projects'>
+              <h1>Portfolio</h1>
+            </div>
+          </div>
         </div>
     )
   }
