@@ -1,13 +1,16 @@
 import React from 'react';
+import Project from '../subcomponents/project'
+import Grid from 'react-css-grid'
 
 export default class Portfolio extends React.Component {
   render(){
     return(
         <div>
           <div className='portfolio'>
-            <div className='projects'>
-              <h1>Portfolio</h1>
-            </div>
+              <Project />
+              <Project />
+              <Project />
+              <Project />
           </div>
         </div>
     )

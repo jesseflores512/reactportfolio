@@ -55,11 +55,26 @@ a {
 /* portfolio page */
 .portfolio {
   height: 700px;
-  display: flex;
   background-image: url('./images/macbook.jpg');
   background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
+.project {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: white;
+  margin: 10px;
+  margin-top: 50px;
+  height: 250px;
+}
+.projectText{
+  color: white;
+  font-size: 15px;
+  width: 80%;
+}
 /* about page */
 .aboutPage {
   height: 700px;
