@@ -130,3 +130,22 @@ a {
   background-image: url('./images/skyline.jpg');
   background-size: cover;
 }
+
+.contact {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contacts {
+  color: gold;
+}
+
+.contact h1 {
+  font-size: 50px;
+}
+
+.contact p {
+  font-size: 20px;
+}
