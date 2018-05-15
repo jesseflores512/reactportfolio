@@ -45,7 +45,7 @@ a {
 }
 
 .home {
-  height: 700px;
+  height: 800px;
   display: flex;
   background-image: url('./images/nightsky.jpg');
   background-size: cover;
@@ -54,7 +54,7 @@ a {
 
 /* portfolio page */
 .portfolio {
-  height: 700px;
+  height: 800px;
   background-image: url('./images/macbook.jpg');
   background-size: cover;
   display: grid;
@@ -99,7 +99,7 @@ a {
 }
 /* about page */
 .aboutPage {
-  height: 700px;
+  height: 800px;
   display: flex;
   background-image: url('./images/hanging.jpg');
   background-size: cover;
@@ -110,7 +110,7 @@ a {
 .aboutMe {
   text-align: center;
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
