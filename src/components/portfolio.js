@@ -20,8 +20,7 @@ export default class Portfolio extends React.Component {
           <div className='portfolio'>
               <Project text = {goals.text} image = {goals.image} link ={goals.link}/>
               <Project text = {rep.text} image = {rep.image} link ={rep.link}/>
-              <Project text = {test}/>
-              <Project text = {test}/>
+              
 
           </div>
         </div>
