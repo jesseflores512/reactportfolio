@@ -214,6 +214,9 @@ a {
   .greeting {
     font-size: 30px;
   }
+  .portfolio {
+    background: radial-gradient(circle, rgba(40, 9, 82, 1) 0%, rgba(0, 2, 51, 1) 100%);
+  }
   .project {
     height: 320px;
   }
