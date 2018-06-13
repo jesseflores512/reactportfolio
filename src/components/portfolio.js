@@ -5,7 +5,7 @@ export default class Portfolio extends React.Component {
   render(){
     const test = 'test'
     const rep = {
-      text : 'This app finds your representatives based on your location, using 2 google APIs. Made with HTML/CSS/JS/JQuery',
+      text : 'Find your representatives based on your location, using 2 google APIs. Made with HTML/CSS/JS/JQuery',
       image : require('../images/projectimages/rep.png'),
       link : 'https://arnoldrz2.github.io/Know-Your-Rep/'
     };
