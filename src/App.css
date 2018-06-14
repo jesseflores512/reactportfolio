@@ -201,11 +201,16 @@ a {
 @media only screen and (max-width: 520px) {
   .name {
     font-size: 19px;
+    padding-left: 10px;
+    margin-right: 10px;
   }
   .navLinks {
     font-size: 15px;
     padding-right: 10px;
     text-align: center;
+  }
+  li {
+    padding-left: 25px;
   }
   .home {
     height: 100vh;
