@@ -21,6 +21,11 @@ export default class Portfolio extends React.Component {
       image : require('../images/projectimages/bio.png'),
       link : 'https://thebio.herokuapp.com/'
     };
+    const quiz = {
+      text : 'A quiz game made with HTML/CSS/Javascript',
+      image : require('../images/projectimages/quiz.png'),
+      link : 'https://jesseflores512.github.io/quiz/'
+    };
 
     return(
         <div>
@@ -28,7 +33,7 @@ export default class Portfolio extends React.Component {
               <Project text = {goals.text} image = {goals.image} link ={goals.link}/>
               <Project text = {rep.text} image = {rep.image} link ={rep.link}/>
               <Project text = {bio.text} image = {bio.image} link ={bio.link}/>
-
+              <Project text = {quiz.text} image = {quiz.image} link ={quiz.link}/>
 
           </div>
         </div>
