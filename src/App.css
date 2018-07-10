@@ -76,8 +76,7 @@ a {
 
 .portfolio {
   height: 100%;
-  background-image: url('./images/macbook.jpg');
-  background-size: cover;
+  background: radial-gradient(circle, rgba(40, 9, 82, 1) 0%, rgba(0, 2, 51, 1) 100%);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -85,8 +84,6 @@ a {
 @media screen and (min-width:1000px) {
   .portfolio {
     height: 100vh;
-    background-image: url('./images/macbook.jpg');
-    background-size: cover;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }

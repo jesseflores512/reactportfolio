@@ -10,10 +10,10 @@ export default class Portfolio extends React.Component {
       link : 'https://arnoldrz2.github.io/Know-Your-Rep/'
     };
 
-    const goals = {
-      text : 'Made this simple webpage to learn CSS grids. Made with HTML/CSS/JS/JQuery',
-      image : require('../images/projectimages/goals.png'),
-      link : 'https://jesseflores512.github.io/goals/'
+    const marvel = {
+      text : 'An app that utilizes AJAX with the Marvel Comics API. Made with JQuery and CSS Grids',
+      image : require('../images/projectimages/marvel.png'),
+      link : 'https://jesseflores512.github.io/marvelapp/'
     };
 
     const bio = {
@@ -30,7 +30,7 @@ export default class Portfolio extends React.Component {
     return(
         <div>
           <div className='portfolio'>
-              <Project text = {goals.text} image = {goals.image} link ={goals.link}/>
+              <Project text = {marvel.text} image = {marvel.image} link ={marvel.link}/>
               <Project text = {rep.text} image = {rep.image} link ={rep.link}/>
               <Project text = {bio.text} image = {bio.image} link ={bio.link}/>
               <Project text = {quiz.text} image = {quiz.image} link ={quiz.link}/>
